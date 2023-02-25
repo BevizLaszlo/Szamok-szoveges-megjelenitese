@@ -38,6 +38,13 @@ namespace SzámSzövegesen
                 }
             }
 
+            // ha 0 a beírt szám:
+
+            if (num == "0")
+            {
+                strNum = "nulla";
+            }
+
             // negatív számok esetén:
 
             if (num[0] == '-')
